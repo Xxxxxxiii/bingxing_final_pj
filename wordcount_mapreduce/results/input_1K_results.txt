@@ -1,0 +1,27 @@
+Performance Results for input_1K.txt
+========================================
+Baseline Serial Time (1 core): 3.7331 seconds
+
+--- Parallelism: 4 cores ---
+Run 1: Serial=3.9717s, Parallel=4.1107s, Speedup=0.97x
+Run 2: Serial=3.9717s, Parallel=4.1767s, Speedup=0.95x
+Run 3: Serial=3.9717s, Parallel=4.0811s, Speedup=0.97x
+Run 4: Serial=3.9717s, Parallel=3.6313s, Speedup=1.09x
+Run 5: Serial=3.9717s, Parallel=4.0773s, Speedup=0.97x
+Average: Parallel=4.0154s, Speedup=0.99x
+
+--- Parallelism: 8 cores ---
+Run 1: Serial=3.7331s, Parallel=3.7134s, Speedup=1.01x
+Run 2: Serial=3.7331s, Parallel=3.7131s, Speedup=1.01x
+Run 3: Serial=3.7331s, Parallel=4.0056s, Speedup=0.93x
+Run 4: Serial=3.7331s, Parallel=4.1827s, Speedup=0.89x
+Run 5: Serial=3.7331s, Parallel=3.8838s, Speedup=0.96x
+Average: Parallel=3.8997s, Speedup=0.96x
+
+--- Parallelism: 16 cores ---
+Run 1: Serial=3.7331s, Parallel=4.2499s, Speedup=0.88x
+Run 2: Serial=3.7331s, Parallel=3.4815s, Speedup=1.07x
+Run 3: Serial=3.7331s, Parallel=4.0449s, Speedup=0.92x
+Run 4: Serial=3.7331s, Parallel=4.1976s, Speedup=0.89x
+Run 5: Serial=3.7331s, Parallel=3.8302s, Speedup=0.97x
+Average: Parallel=3.9608s, Speedup=0.95x

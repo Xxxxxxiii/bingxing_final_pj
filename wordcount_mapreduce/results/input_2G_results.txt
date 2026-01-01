@@ -1,0 +1,27 @@
+Performance Results for input_2G.txt
+========================================
+Baseline Serial Time (1 core): 267.1350 seconds
+
+--- Parallelism: 4 cores ---
+Run 1: Serial=272.5658s, Parallel=77.2891s, Speedup=3.53x
+Run 2: Serial=272.5658s, Parallel=73.6263s, Speedup=3.70x
+Run 3: Serial=272.5658s, Parallel=70.6688s, Speedup=3.86x
+Run 4: Serial=272.5658s, Parallel=72.1424s, Speedup=3.78x
+Run 5: Serial=272.5658s, Parallel=75.0120s, Speedup=3.63x
+Average: Parallel=73.7477s, Speedup=3.70x
+
+--- Parallelism: 8 cores ---
+Run 1: Serial=267.1350s, Parallel=40.4314s, Speedup=6.61x
+Run 2: Serial=267.1350s, Parallel=39.9363s, Speedup=6.69x
+Run 3: Serial=267.1350s, Parallel=40.4297s, Speedup=6.61x
+Run 4: Serial=267.1350s, Parallel=39.0905s, Speedup=6.83x
+Run 5: Serial=267.1350s, Parallel=40.2053s, Speedup=6.64x
+Average: Parallel=40.0186s, Speedup=6.68x
+
+--- Parallelism: 16 cores ---
+Run 1: Serial=267.1350s, Parallel=37.2540s, Speedup=7.17x
+Run 2: Serial=267.1350s, Parallel=34.7793s, Speedup=7.68x
+Run 3: Serial=267.1350s, Parallel=36.2605s, Speedup=7.37x
+Run 4: Serial=267.1350s, Parallel=36.3556s, Speedup=7.35x
+Run 5: Serial=267.1350s, Parallel=34.7075s, Speedup=7.70x
+Average: Parallel=35.8714s, Speedup=7.45x

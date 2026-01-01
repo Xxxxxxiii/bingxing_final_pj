@@ -1,0 +1,27 @@
+Performance Results for input_1M.txt
+========================================
+Baseline Serial Time (1 core): 4.4869 seconds
+
+--- Parallelism: 4 cores ---
+Run 1: Serial=4.0395s, Parallel=4.4627s, Speedup=0.91x
+Run 2: Serial=4.0395s, Parallel=4.4206s, Speedup=0.91x
+Run 3: Serial=4.0395s, Parallel=4.4050s, Speedup=0.92x
+Run 4: Serial=4.0395s, Parallel=4.6526s, Speedup=0.87x
+Run 5: Serial=4.0395s, Parallel=4.2300s, Speedup=0.95x
+Average: Parallel=4.4342s, Speedup=0.91x
+
+--- Parallelism: 8 cores ---
+Run 1: Serial=4.4869s, Parallel=4.2323s, Speedup=1.06x
+Run 2: Serial=4.4869s, Parallel=4.3055s, Speedup=1.04x
+Run 3: Serial=4.4869s, Parallel=3.8207s, Speedup=1.17x
+Run 4: Serial=4.4869s, Parallel=4.3976s, Speedup=1.02x
+Run 5: Serial=4.4869s, Parallel=3.6083s, Speedup=1.24x
+Average: Parallel=4.0729s, Speedup=1.11x
+
+--- Parallelism: 16 cores ---
+Run 1: Serial=4.4869s, Parallel=4.3958s, Speedup=1.02x
+Run 2: Serial=4.4869s, Parallel=4.0986s, Speedup=1.09x
+Run 3: Serial=4.4869s, Parallel=3.9392s, Speedup=1.14x
+Run 4: Serial=4.4869s, Parallel=4.6104s, Speedup=0.97x
+Run 5: Serial=4.4869s, Parallel=4.3833s, Speedup=1.02x
+Average: Parallel=4.2855s, Speedup=1.05x

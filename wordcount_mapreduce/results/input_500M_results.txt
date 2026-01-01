@@ -1,0 +1,27 @@
+Performance Results for input_500M.txt
+========================================
+Baseline Serial Time (1 core): 66.6188 seconds
+
+--- Parallelism: 4 cores ---
+Run 1: Serial=68.4209s, Parallel=20.5031s, Speedup=3.34x
+Run 2: Serial=68.4209s, Parallel=21.1425s, Speedup=3.24x
+Run 3: Serial=68.4209s, Parallel=20.1398s, Speedup=3.40x
+Run 4: Serial=68.4209s, Parallel=19.9338s, Speedup=3.43x
+Run 5: Serial=68.4209s, Parallel=21.4488s, Speedup=3.19x
+Average: Parallel=20.6336s, Speedup=3.32x
+
+--- Parallelism: 8 cores ---
+Run 1: Serial=66.6188s, Parallel=13.3995s, Speedup=4.97x
+Run 2: Serial=66.6188s, Parallel=13.4482s, Speedup=4.95x
+Run 3: Serial=66.6188s, Parallel=13.1903s, Speedup=5.05x
+Run 4: Serial=66.6188s, Parallel=13.5985s, Speedup=4.90x
+Run 5: Serial=66.6188s, Parallel=13.1403s, Speedup=5.07x
+Average: Parallel=13.3554s, Speedup=4.99x
+
+--- Parallelism: 16 cores ---
+Run 1: Serial=66.6188s, Parallel=13.0094s, Speedup=5.12x
+Run 2: Serial=66.6188s, Parallel=13.6724s, Speedup=4.87x
+Run 3: Serial=66.6188s, Parallel=13.5298s, Speedup=4.92x
+Run 4: Serial=66.6188s, Parallel=13.4153s, Speedup=4.97x
+Run 5: Serial=66.6188s, Parallel=13.3459s, Speedup=4.99x
+Average: Parallel=13.3946s, Speedup=4.97x
